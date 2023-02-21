@@ -3,6 +3,7 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     padding: 30px 0px;
+    background-color: #fff;
     a.nav-h1{
         text-decoration: none;
         color: black;
@@ -26,5 +27,11 @@ nav{
                 font-size: 1rem;
             }
         }
+    }
+}
+
+.container{
+    img{
+        width: 100%;
     }
 }
