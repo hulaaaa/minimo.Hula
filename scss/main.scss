@@ -70,7 +70,6 @@ div#Second.container{
 div#Third.container{
     margin-top: 70px;
     .row{
-        
         .col-12{
             margin-bottom: 30px;
             height: fit-content;
@@ -105,5 +104,87 @@ div#Third.container{
                 font-size: 14px;
             }
         }
+    }
+    a{
+        text-decoration: none;
+        color: #626262;
+        .btn{
+            margin: 0 auto;
+            width: fit-content;
+            h2{
+                margin: 0;
+                margin-bottom: 100px;
+                padding: 0;
+                font-family: 'Playfair Display';
+                color: #626262;
+                font-size: 20px;
+                padding: 15px 30px;
+
+                border: 1px solid #626262;
+            }
+        }
+    }
+}
+
+#mailBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px;
+    background-color: #f0f0f0;
+    padding: 50px 200px;
+    h2{
+        margin: 0;
+        margin-bottom: 70px;
+
+        padding: 0;
+        font-family: 'Playfair Display';
+        color: #626262;
+        font-size: 30px;
+    }
+    form{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        input{
+            margin:  0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            width: 380px;
+            height: 30px;
+
+            border-bottom: 1px solid #3d3a3a;
+            &::placeholder{
+                font-size: 17px;
+            }
+        }
+        button{
+            position: absolute;
+            right: 530px;
+            border: none;
+            cursor: pointer;
+            i{
+                position: relative;
+                font-size: 20px;
+                color: #333333;
+            }
+        }
+    }
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 20px 0px;
+    div{
+        padding: 0px 80px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
     }
 }
